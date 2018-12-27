@@ -5,7 +5,7 @@ body {
 
 .logo-container {
   display: flex;
-  background-color: black;
+
   height: 120px;
   width: 50%;
 }
@@ -17,7 +17,17 @@ body {
 
 .nav-container {
   display: flex;
-  background-color: black;
+}
+
+.header {
+  background: black;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
 
 h1,
@@ -36,10 +46,6 @@ h2 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 5px;
-}
-
-.header-top {
-  width: 100%;
 }
 
 .title-title {
