@@ -6,7 +6,7 @@ body {
 .logo-container {
   display: flex;
 
-  height: 100px;
+  height: 80px;
   width: 50%;
 }
 
@@ -28,18 +28,19 @@ a {
 
 .nav-link,
 .soc-nav-link {
-  padding-top: 55px;
+  padding-top: 40px;
   padding-right: 10px;
   padding-left: 10px;
   text-decoration: none;
 }
 
 .soc-nav-link {
-  padding-top: 60px;
+  padding-top: 43px;
 }
 
-#Layer_1 {
-  margin-left: 50px;
+#tblogo {
+  margin-left: 60px;
+  padding-top: 10px;
 }
 
 .nav-container {

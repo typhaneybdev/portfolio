@@ -1,1 +1,14 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.13 111.83"><defs><style>.cls-1{fill:#d76599;stroke:#d76599;stroke-miterlimit:10;}.cls-2{fill:#ffd082;}</style></defs><title>oplogosmall</title><text x="6.69" y="10.42"/><path class="cls-1" d="M52.25,3.58h-23V77.75H25.39V3.58H2.79V1.46H52.25V3.58Z" transform="translate(6.69 10.42)"/><path class="cls-2" d="M47.15,77.94H32.69V6.79H47.46c9.38,0,19.7-.21,19.7,16.82,0,11.39-6,16.3-13.82,17.87,8.58,1.36,15.09,6.79,15.09,18.39C68.44,76.9,56.52,77.94,47.15,77.94ZM46.83,8.88h-11V40.33h8.26C51.59,40.33,64,39.7,64,23.51,64,8.36,54.93,8.88,46.83,8.88Zm-2.7,33.43H35.87V76H46.51c8.1,0,18.59-.52,18.59-16.19C65.1,43.57,51.59,42.31,44.13,42.31Z" transform="translate(6.69 10.42)"/><text x="6.69" y="10.42"/><text x="6.69" y="10.42"/><text x="6.69" y="10.42"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 91.6 85.6" style="enable-background:new 0 0 91.6 85.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D76599;stroke:#D76599;stroke-miterlimit:10;}
+	.st1{fill:#FFD082;stroke:#FFD082;stroke-miterlimit:10;}
+</style>
+<title>oplogosmall</title>
+<path class="st0" d="M45.9,22.3H26.1v58.9h-3.3V22.3H3.3v-1.7h42.5V22.3z"/>
+<path class="st1" d="M42.7,81.4H30.3V26.7H43c8.1,0,16.9-0.2,16.9,12.9c0,8.8-5.2,12.5-11.9,13.7c7.4,1,13,5.2,13,14.1
+	C61,80.6,50.8,81.4,42.7,81.4z M42.4,28.3H33v24.2h7.1c6.5,0,17.1-0.5,17.1-12.9C57.2,27.9,49.4,28.3,42.4,28.3z M40.1,54H33v25.9
+	h9.2c7,0,16-0.4,16-12.4C58.2,55,46.5,54,40.1,54z"/>
+</svg>
