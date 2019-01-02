@@ -55,7 +55,7 @@ a {
 .hero h1 {
   width: auto;
   text-align: center;
-  color: black;
+  color: #d76599;
   font-family: balboa-plus-inline, sans-serif;
 }
 
@@ -67,11 +67,13 @@ a {
 
 .hero-text {
   position: absolute;
+  display: flex;
   top: 40%;
-  left: 50%;
+  left: 82%;
   transform: translate(-50%, -50%);
-  font-size: 45px;
+  font-size: 28px;
   width: 100%;
+  align-content: center;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -81,7 +83,6 @@ a {
   width: 100%;
 }
 
-h1,
 h2,
 h3,
 a,
