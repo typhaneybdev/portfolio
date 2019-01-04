@@ -49,7 +49,7 @@ a {
 }
 
 #tblogo {
-  margin-left: 25px;
+  margin-left: 30px;
   padding-top: 10px;
 }
 
@@ -137,7 +137,7 @@ h2:hover {
 
 .project-container {
   width: 100%;
-  background-color: black;
+  background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
 }
 
 .featured-work-container {
