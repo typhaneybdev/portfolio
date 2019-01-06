@@ -87,7 +87,7 @@ a {
   position: absolute;
   display: flex;
   font-size: 25px;
-  align-content: center;
+  padding-bottom: 150px;
   z-index: 1;
 }
 
@@ -127,6 +127,10 @@ h2:hover {
   color: #ffd082;
 }
 
+h1:hover {
+  color: #f98107;
+}
+
 .hero-banner {
   display: block;
   width: 100%;
@@ -145,7 +149,7 @@ h2:hover {
 }
 
 .featured-work-container {
-  height: 600px;
+  height: 100%;
 }
 
 .social-footer {
@@ -507,7 +511,7 @@ h2:hover {
 @media screen and (max-width: 450px) {
 .hero-text {
   font-size: 10px;
-  padding-top: 60px;
+  
 }
 }
 
