@@ -1,8 +1,10 @@
 body {
   width: 100%;
   margin: 0 auto;
+  padding: 0px;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .logo-container {
