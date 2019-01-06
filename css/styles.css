@@ -2,6 +2,7 @@ body {
   width: 100%;
   margin: 0 auto;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-repeat: no-repeat;
 }
 
 .logo-container {
@@ -21,9 +22,12 @@ a {
   text-decoration: none;
 }
 
-.fa {
-  font-size: 40px;
-  padding-left: 15px;
+.fas {
+  color: #d76599;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 200px;
+  
 }
 
 .cls-1 {
@@ -42,6 +46,7 @@ a {
   padding-right: 10px;
   padding-left: 10px;
   text-decoration: none;
+  display: none;
 }
 
 .soc-nav-link {
@@ -85,6 +90,11 @@ a {
   width: 100%;
   align-content: center;
   z-index: 1;
+}
+
+#myHeader {
+  width: 100%;
+
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -136,6 +146,10 @@ h2:hover {
   margin-right: auto;
 }
 
+.content-container {
+  width: 100%;
+}
+
 .project-container {
   width: 100%;
   background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
@@ -144,6 +158,7 @@ h2:hover {
 .featured-work-container {
   height: 600px;
 }
+
 .social-footer {
   text-align: center;
 }
@@ -173,26 +188,13 @@ h2:hover {
   }
 }
 
-@media screen and (max-width: 1055px) {
-  body {
-    width: 80%;
-    margin: 0 auto;
-  }
+/*@media screen and (max-width: 1064px) {
 
-  .project1 {
-    padding: 0;
-  }
-  .project2 {
-    padding: 0;
-  }
-  .project3 {
-    padding: 0;
-  }
-}
+
+}*/
 
 @media screen and (max-width: 1080px) {
-  .hero {
-    width: 1080;
+
   }
   img {
     width: 100%;
@@ -538,5 +540,30 @@ h2:hover {
   }
   0% {
     transform: rotate(405deg);
+  }
+}
+
+/* responsive burger */
+@media (max-width: 768px) and (max-width: 320px) {
+  .fas {
+    margin-left: 10px;
+  }
+  .main-nav-container {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .fas {
+    padding-left: 68px;
+  }
+}
+
+@media (max-width: 375px) {
+  .fas {
+    align-content: left;
+  }
+  .main-nav-container {
+    padding-left: 0;
   }
 }
