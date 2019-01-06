@@ -519,7 +519,7 @@ h1:hover {
 /* On screens that are 800px or less */
 @media screen and (max-width: 824px) {
   .fas {
-    padding-left: 80px;
+    padding-left: 145px;
   }
   .nav-link,
   .soc-nav-link {
