@@ -22,12 +22,14 @@ a {
   text-decoration: none;
 }
 
+.hamburger {
+  width: 100%;
+}
+
 .fas {
   color: #d76599;
   font-size: 35px;
   margin-top: 20px;
-  margin-left: 200px;
-  
 }
 
 .cls-1 {
@@ -46,7 +48,6 @@ a {
   padding-right: 10px;
   padding-left: 10px;
   text-decoration: none;
-  display: none;
 }
 
 .soc-nav-link {
@@ -94,7 +95,6 @@ a {
 
 #myHeader {
   width: 100%;
-
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -129,15 +129,6 @@ h2:hover {
   color: #ffd082;
 }
 
-.title-title {
-  font-family: balboa-plus-inline, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  color: #565554;
-  margin: 0;
-  padding-top: 5px;
-}
-
 .hero-banner {
   display: block;
   width: 100%;
@@ -168,37 +159,9 @@ h2:hover {
   width: 30px;
 }
 
-.project-hover {
-}
-
 .email {
   text-align: center;
   color: #b79508;
-}
-
-@media screen and (max-width: 500px) {
-  .project1 {
-    padding: 0;
-  }
-  .project2 {
-    padding: 0;
-  }
-  .project3 {
-    padding: 0;
-  }
-}
-
-/*@media screen and (max-width: 1064px) {
-
-
-}*/
-
-@media screen and (max-width: 1080px) {
-
-  }
-  img {
-    width: 100%;
-  }
 }
 
 .featured-work-container {
@@ -544,26 +507,30 @@ h2:hover {
 }
 
 /* responsive burger */
-@media (max-width: 768px) and (max-width: 320px) {
+/* On screens that are 800px or less */
+@media screen and (max-width: 824px) {
   .fas {
-    margin-left: 10px;
+    padding-left: 80px;
   }
-  .main-nav-container {
-    padding-left: 0;
+  .nav-link,
+  .soc-nav-link {
+    display: none;
   }
 }
 
-@media (max-width: 400px) {
+@media screen and (min-width: 955px) {
   .fas {
-    padding-left: 68px;
+    display: none;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (min-width: 824px) and (max-width: 1024px) {
   .fas {
-    align-content: left;
+    display: none;
   }
   .main-nav-container {
     padding-left: 0;
+    padding 
   }
+
 }
