@@ -86,11 +86,7 @@ a {
 .hero-text {
   position: absolute;
   display: flex;
-  top: 40%;
-  left: 70%;
-  transform: translate(-50%, -50%);
   font-size: 25px;
-  width: 100%;
   align-content: center;
   z-index: 1;
 }
