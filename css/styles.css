@@ -127,7 +127,7 @@ h2:hover {
   color: #ffd082;
 }
 
-h1:hover {
+.hero-text h1:hover {
   color: #f98107;
 }
 
@@ -532,6 +532,7 @@ h1:hover {
   }
   .hero-text {
     font-size: 18px;
+    margin-top: 30px;
   }
 }
 
