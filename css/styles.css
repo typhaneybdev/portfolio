@@ -173,10 +173,12 @@ h2:hover {
 }
 
 .ab-content p {
+  display: flex;
   padding-right: 70px;
   font-size: 18px;
   margin-left: 38px;
   padding-top: 40px;
+  flex-basis: 100%;
   padding-bottom: 30px;
 }
 
@@ -623,12 +625,28 @@ h2:hover {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
   .ab-img {
     flex: 1;
+    margin-left: 0;
+    width: 100%;
   }
 
   .ab-content {
     flex: 2;
+    width: 100%;
+  }
+
+  .ab-img img {
+    height: 301px;
+    width: 301px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ab-img {
+    flex: 1;
+    margin-left: 35px;
+    width: 100%;
   }
 }
