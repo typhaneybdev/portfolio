@@ -508,18 +508,23 @@ h1:hover {
   }
 }
 
-@media screen and (max-width: 450px) {
-.hero-text {
-  font-size: 10px;
-  
-}
+/* responsive burger */
+@media screen and (max-width: 399px) {
+  .fas {
+    padding-left: 110px;
+  }
+  .nav-link,
+  .soc-nav-link {
+    display: none;
+  }
+  .hero-text {
+    font-size: 15px;
+  }
 }
 
-/* responsive burger */
-/* On screens that are 800px or less */
-@media screen and (max-width: 824px) {
+@media screen and (min-width: 400px) and (max-width: 600px) {
   .fas {
-    padding-left: 145px;
+    padding-left: 120px;
   }
   .nav-link,
   .soc-nav-link {
@@ -530,18 +535,51 @@ h1:hover {
   }
 }
 
-@media screen and (min-width: 955px) {
+/*@media screen and (min-width: 426px) and (max-width: 600px) {
   .fas {
+    padding-left: 190px;
+  }
+  .nav-link,
+  .soc-nav-link {
     display: none;
+  }
+  .hero-text {
+    font-size: 18px;
+  }
+} */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .fas {
+    padding-left: 350px;
+  }
+  .nav-link,
+  .soc-nav-link {
+    display: none;
+  }
+  .hero-text {
+    font-size: 18px;
   }
 }
 
-@media screen and (min-width: 824px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 850px) {
+  .nav-link {
+    display: none;
+  }
+  .main-nav-container {
+    padding-left: 0;
+  }
+  .fas {
+    padding-left: 250px;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 851px) {
   .fas {
     display: none;
   }
   .main-nav-container {
     padding-left: 0;
-    padding 
+    padding-right: 80px;
   }
 }
