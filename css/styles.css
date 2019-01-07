@@ -143,13 +143,34 @@ h2:hover {
   width: 100%;
 }
 
-.project-container {
+.section-container {
   width: 100%;
   background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%);
 }
 
 .featured-work-container {
   height: 100%;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  height: 400px;
+  z-index: 1;
+  background: white;
+}
+
+.ab-img {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.ab-content p {
+  padding-top: 35px;
+  padding-right: 70px;
+  font-size: 18px;
+  margin-left: 38px;
 }
 
 .social-footer {
