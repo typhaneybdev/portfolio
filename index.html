@@ -28,141 +28,151 @@
     <link href="css/hexagons.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="header" id="myHeader">
-      <div class="nav-container">
-        <div class="logo-container">
-          <svg
-            id="tblogo"
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 10% 10%"
-          >
-            <defs>
-              <style>
-                .cls-1 {
-                  fill: #d76599;
-                  stroke: #d76599;
-                }
-                .cls-1,
-                .cls-2 {
-                  stroke-miterlimit: 10;
-                }
-                .cls-2 {
-                  fill: #ffd082;
-                  stroke: #ffd082;
-                }
-              </style>
-            </defs>
-            <title>oplogosmall</title>
-            <path
-              class="cls-1"
-              d="M45.85,22.35H26.07V81.21H22.75V22.35H3.31V20.67H45.85v1.68Z"
-              transform="translate(-2.81 -20.17)"
-            />
-            <path
-              class="cls-2"
-              d="M42.72,81.36H30.28V26.7H43c8.07,0,16.94-.16,16.94,12.92,0,8.75-5.16,12.52-11.89,13.73,7.38,1,13,5.22,13,14.13C61,80.56,50.78,81.36,42.72,81.36ZM42.44,28.31H33V52.47h7.1c6.45,0,17.12-.48,17.12-12.92C57.21,27.91,49.41,28.31,42.44,28.31ZM40.12,54H33V79.87h9.15c7,0,16-.4,16-12.44C58.16,55,46.54,54,40.12,54Z"
-              transform="translate(-2.81 -20.17)"
-            />
-          </svg>
-		</div>
-		<div class="hamburger">
-				<i class="fas fa-bars"></i>
-		</div>
-        <div class="main-nav-container">
-
-
-          <nav class="nav-menu">
-
-            <div class="nav-link">
-              <a data-value="home" href="#home"><h2>HOME</h2></a>
+      <header class="header" id="myHeader">
+          <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fas fa-bars"></i>
+            </span>
+    
+            <div class="logo-container">
+              <svg
+                id="tblogo"
+                data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 10% 10%"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #d76599;
+                      stroke: #d76599;
+                    }
+                    .cls-1,
+                    .cls-2 {
+                      stroke-miterlimit: 10;
+                    }
+                    .cls-2 {
+                      fill: #ffd082;
+                      stroke: #ffd082;
+                    }
+                  </style>
+                </defs>
+                <title>oplogosmall</title>
+                <path
+                  class="cls-1"
+                  d="M45.85,22.35H26.07V81.21H22.75V22.35H3.31V20.67H45.85v1.68Z"
+                  transform="translate(-2.81 -20.17)"
+                />
+                <path
+                  class="cls-2"
+                  d="M42.72,81.36H30.28V26.7H43c8.07,0,16.94-.16,16.94,12.92,0,8.75-5.16,12.52-11.89,13.73,7.38,1,13,5.22,13,14.13C61,80.56,50.78,81.36,42.72,81.36ZM42.44,28.31H33V52.47h7.1c6.45,0,17.12-.48,17.12-12.92C57.21,27.91,49.41,28.31,42.44,28.31ZM40.12,54H33V79.87h9.15c7,0,16-.4,16-12.44C58.16,55,46.54,54,40.12,54Z"
+                  transform="translate(-2.81 -20.17)"
+                />
+              </svg>
             </div>
-            <div class="nav-link">
-              <a data-value="about" href="#about"><h2>ABOUT</h2></a>
-            </div>
-            <div class="nav-link">
-              <a data-value="projects" href="#projects"><h2>PROJECTS</h2></a>
-            </div>
-            <div class="soc-nav-link">
-              <a href="https://twitter.com/TyphaneyBdev"
-                ><svg
-                  id="twitter"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 19.51"
-                  width="30"
-                  height="30"
+    
+            <ul class="main-nav" id="js-menu">
+              <li>
+                <a data-value="home" href="#home" class="nav-link"><h2>HOME</h2></a>
+              </li>
+    
+              <li>
+                <a data-value="about" href="#about" class="nav-link"
+                  ><h2>ABOUT</h2></a
                 >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill: #d76599;
-                      }
-                    </style>
-                  </defs>
-                  <title>twitter</title>
-                  <path
-                    class="cls-1"
-                    d="M24,4.57a10,10,0,0,1-2.83.78,5,5,0,0,0,2.16-2.72A10.16,10.16,0,0,1,20.16,3.8a4.92,4.92,0,0,0-8.51,3.36,5,5,0,0,0,.13,1.12A13.93,13.93,0,0,1,1.64,3.16,4.82,4.82,0,0,0,1,5.64a4.92,4.92,0,0,0,2.19,4.1A4.9,4.9,0,0,1,.93,9.12V9.18A4.92,4.92,0,0,0,4.88,14a5,5,0,0,1-2.21.08,4.94,4.94,0,0,0,4.6,3.42,9.87,9.87,0,0,1-6.1,2.1A10.44,10.44,0,0,1,0,19.54a14,14,0,0,0,7.56,2.21,13.9,13.9,0,0,0,14-14c0-.21,0-0.42,0-0.63A9.94,9.94,0,0,0,24,4.59Z"
-                    transform="translate(0 -2.25)"
-                  /></svg
-              ></a>
-            </div>
-            <div class="soc-nav-link">
-              <a href="https://github.com/typhaneybdev"
-                ><svg
-                  id="github"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 23.41"
-                  width="30"
-                  height="30"
+              </li>
+    
+              <li>
+                <a data-value="projects" href="#projects" class="nav-link"
+                  ><h2>PROJECTS</h2></a
                 >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill: #d76599;
-                      }
-                    </style>
-                  </defs>
-                  <title>github</title>
-                  <path
-                    class="cls-1"
-                    d="M12,0.3A12,12,0,0,0,8.2,23.68,0.6,0.6,0,0,0,9,23.1c0-.28,0-1,0-2-3.34.72-4-1.61-4-1.61A3.18,3.18,0,0,0,3.63,17.7C2.55,17,3.72,17,3.72,17a2.52,2.52,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.56,2.56,0,0,1,.76-1.6c-2.66-.3-5.47-1.33-5.47-5.93A4.63,4.63,0,0,1,5.58,8.45a4.27,4.27,0,0,1,.11-3.18S6.69,5,9,6.5a11.31,11.31,0,0,1,6,0C17.26,5,18.27,5.27,18.27,5.27a4.38,4.38,0,0,1,.12,3.18,4.65,4.65,0,0,1,1.23,3.22c0,4.61-2.81,5.63-5.48,5.92A2.87,2.87,0,0,1,15,19.81c0,1.61,0,2.9,0,3.29a0.6,0.6,0,0,0,.82.57A12,12,0,0,0,12,.3"
-                    transform="translate(0 -0.3)"
-                  /></svg
-              ></a>
-            </div>
-            <div class="soc-nav-link">
-              <a href="https://www.linkedin.com/in/typhaneybennett/">
-                <svg
-                  id="linkedin"
-                  data-name="Layer 1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="30"
-                  height="30"
-                >
-                  <defs>
-                    <style>
-                      .cls-1 {
-                        fill: #d76599;
-                      }
-                    </style>
-                  </defs>
-                  <title>linkedin</title>
-                  <path
-                    class="cls-1"
-                    d="M20.45,20.45H16.89V14.88c0-1.33,0-3-1.85-3s-2.14,1.44-2.14,2.94v5.67H9.35V9h3.41v1.56h0a3.75,3.75,0,0,1,3.37-1.85c3.6,0,4.27,2.37,4.27,5.45v6.29h0ZM5.34,7.43A2.06,2.06,0,1,1,7.4,5.37,2.06,2.06,0,0,1,5.34,7.43Zm1.78,13H3.56V9H7.12V20.45ZM22.23,0H1.77A1.75,1.75,0,0,0,0,1.73V22.27A1.75,1.75,0,0,0,1.77,24H22.22A1.76,1.76,0,0,0,24,22.27V1.73A1.76,1.76,0,0,0,22.22,0h0Z"
-                  /></svg
-			  ></a>
-
-			</div>
-
+              </li>
+    
+              <li class="soc-nav-link">
+                <a href="https://twitter.com/TyphaneyBdev" 
+                  ><svg
+                    id="twitter"
+                    data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 19.51"
+                    width="30"
+                    height="30"
+                  >
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #d76599;
+                        }
+                      </style>
+                    </defs>
+                    <title>twitter</title>
+                    <path
+                      class="cls-1"
+                      d="M24,4.57a10,10,0,0,1-2.83.78,5,5,0,0,0,2.16-2.72A10.16,10.16,0,0,1,20.16,3.8a4.92,4.92,0,0,0-8.51,3.36,5,5,0,0,0,.13,1.12A13.93,13.93,0,0,1,1.64,3.16,4.82,4.82,0,0,0,1,5.64a4.92,4.92,0,0,0,2.19,4.1A4.9,4.9,0,0,1,.93,9.12V9.18A4.92,4.92,0,0,0,4.88,14a5,5,0,0,1-2.21.08,4.94,4.94,0,0,0,4.6,3.42,9.87,9.87,0,0,1-6.1,2.1A10.44,10.44,0,0,1,0,19.54a14,14,0,0,0,7.56,2.21,13.9,13.9,0,0,0,14-14c0-.21,0-0.42,0-0.63A9.94,9.94,0,0,0,24,4.59Z"
+                      transform="translate(0 -2.25)"
+                    /></svg
+                ></a>
+              </li>
+    
+              <li class="soc-nav-link">
+    
+                  <a href="https://github.com/typhaneybdev" 
+                  ><svg
+                    id="github"
+                    data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 23.41"
+                    width="30"
+                    height="30"
+                  >
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #d76599;
+                        }
+                      </style>
+                    </defs>
+                    <title>github</title>
+                    <path
+                      class="cls-1"
+                      d="M12,0.3A12,12,0,0,0,8.2,23.68,0.6,0.6,0,0,0,9,23.1c0-.28,0-1,0-2-3.34.72-4-1.61-4-1.61A3.18,3.18,0,0,0,3.63,17.7C2.55,17,3.72,17,3.72,17a2.52,2.52,0,0,1,1.84,1.24,2.56,2.56,0,0,0,3.49,1,2.56,2.56,0,0,1,.76-1.6c-2.66-.3-5.47-1.33-5.47-5.93A4.63,4.63,0,0,1,5.58,8.45a4.27,4.27,0,0,1,.11-3.18S6.69,5,9,6.5a11.31,11.31,0,0,1,6,0C17.26,5,18.27,5.27,18.27,5.27a4.38,4.38,0,0,1,.12,3.18,4.65,4.65,0,0,1,1.23,3.22c0,4.61-2.81,5.63-5.48,5.92A2.87,2.87,0,0,1,15,19.81c0,1.61,0,2.9,0,3.29a0.6,0.6,0,0,0,.82.57A12,12,0,0,0,12,.3"
+                      transform="translate(0 -0.3)"
+                    /></svg
+                ></a>
+    
+              </li>
+              <li class="soc-nav-link" >
+                  <a href="https://www.linkedin.com/in/typhaneybennett/" >
+                    <svg
+                      id="linkedin"
+                      data-name="Layer 1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      width="30"
+                      height="30"
+                    >
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #d76599;
+                          }
+                        </style>
+                      </defs>
+                      <title>linkedin</title>
+                      <path
+                        class="cls-1"
+                        d="M20.45,20.45H16.89V14.88c0-1.33,0-3-1.85-3s-2.14,1.44-2.14,2.94v5.67H9.35V9h3.41v1.56h0a3.75,3.75,0,0,1,3.37-1.85c3.6,0,4.27,2.37,4.27,5.45v6.29h0ZM5.34,7.43A2.06,2.06,0,1,1,7.4,5.37,2.06,2.06,0,0,1,5.34,7.43Zm1.78,13H3.56V9H7.12V20.45ZM22.23,0H1.77A1.75,1.75,0,0,0,0,1.73V22.27A1.75,1.75,0,0,0,1.77,24H22.22A1.76,1.76,0,0,0,24,22.27V1.73A1.76,1.76,0,0,0,22.22,0h0Z"
+                      /></svg
+                  ></a>
+              </li>
+            </ul>
           </nav>
-        </div>
-      </div>
-    </header>
+    
+          
+          
+    
+          </div>
+        </header>
     <main class="content-container">
       <!--------shooting star animation------>
       <div class="hero"><a name="home"></a>

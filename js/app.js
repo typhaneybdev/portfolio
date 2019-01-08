@@ -15,15 +15,11 @@ function myFunction() {
 }
 //https://www.w3schools.com/howto/howto_js_sticky_header.asp
 
-//TODO: Hamburger menu toggle
-//document.querySelector(".fas fa-bars").addEventListener("click", menuToggle);
-//console.log("clicked");
+//Toggle burger menu
 
-//function menuToggle() {
-// const x = document.getElementById("nav-menu");
-//if (x.className === "nav-menu") {
-// x.className += " responsive";
-// console.log("clicked");
-//} else {
-//   x.className = "nav-menu";
-// }
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
